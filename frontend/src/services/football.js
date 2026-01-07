@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = import.meta.env.API_URL
+const API = "https://the-footy-page-backend.onrender.com/api"
 
 export const getTodayGames = () => axios.get(`${API}/today`);
 export const getYesterdayGames = () => axios.get(`${API}/yesterday`);
