@@ -14,9 +14,6 @@ select,
 textarea {
   appearance: none;
   -webkit-appearance: none;
-  background-color: transparent;
-  color: inherit;
-  font-family: inherit;
   border: none;
   outline: none;
 }
