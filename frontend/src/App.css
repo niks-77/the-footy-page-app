@@ -9,17 +9,20 @@
 }
 
 button,
-input,
-select,
-textarea {
-  appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  outline: none;
+input {
+  font-family: inherit;
 }
 
+/* Safari / mobile fix only */
+button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Prevent blue highlight on tap */
 button,
-a {
+a,
+input {
   -webkit-tap-highlight-color: transparent;
 }
 
