@@ -9,32 +9,3 @@ body,
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   overflow-x: hidden;
 }
-
-/* ===== CRITICAL: Android Chrome fix ===== */
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-
-  /* KILL browser UI styles */
-  background-color: transparent;
-  border: none;
-
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-/* Allow YOUR styles to re-apply */
-button {
-  cursor: pointer;
-}
-
-/* Prevent tap highlight */
-button,
-a,
-input {
-  -webkit-tap-highlight-color: transparent;
-}
